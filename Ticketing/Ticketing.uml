@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_YQ-kwMwqEeuHKMjAGEF6Vg" name="Ticketing">
+    <eAnnotations xmi:id="_bBVzkMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_bBYP0MwqEeuHKMjAGEF6Vg" source="codegen">
+        <details xmi:id="_bBY24MwqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing/src/main/java"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_cBr2QMwqEeuHKMjAGEF6Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_cBr2QcwqEeuHKMjAGEF6Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_cBsdUMwqEeuHKMjAGEF6Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_cBsdUcwqEeuHKMjAGEF6Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_cBtrcMwqEeuHKMjAGEF6Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_cBtrccwqEeuHKMjAGEF6Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_cBuSgMwqEeuHKMjAGEF6Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_cBu5kMwqEeuHKMjAGEF6Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_cBxV0MwqEeuHKMjAGEF6Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_b-gmcMwqEeuHKMjAGEF6Vg" name="es">
+      <packagedElement xmi:type="uml:Package" xmi:id="_b-pJUMwqEeuHKMjAGEF6Vg" name="mde">
+        <packagedElement xmi:type="uml:Package" xmi:id="_b-_uoMwqEeuHKMjAGEF6Vg" name="entidades">
+          <packagedElement xmi:type="uml:Class" xmi:id="_cB6fwMwqEeuHKMjAGEF6Vg" name="ReservaAdulto">
+            <eAnnotations xmi:id="_cB7t4MwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cB7t4cwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cB7t4swqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cTeJ0MwqEeuHKMjAGEF6Vg" general="_cCRFEMwqEeuHKMjAGEF6Vg"/>
+            <ownedAttribute xmi:id="_cVwo0MwqEeuHKMjAGEF6Vg" name="edad">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXPPgMwqEeuHKMjAGEF6Vg" name="ReservaAdulto" specification="_cB9jEMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXPPgcwqEeuHKMjAGEF6Vg" type="_cB6fwMwqEeuHKMjAGEF6Vg" direction="return"/>
+              <language>java</language>
+              <body>super();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cB9jEMwqEeuHKMjAGEF6Vg" name="ReservaAdulto" method="_cXPPgMwqEeuHKMjAGEF6Vg">
+              <eAnnotations xmi:id="_cB9jEcwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_cB9jEswqEeuHKMjAGEF6Vg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_cB-KIMwqEeuHKMjAGEF6Vg" type="_cB6fwMwqEeuHKMjAGEF6Vg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cCE30MwqEeuHKMjAGEF6Vg" name="ReservaNinho">
+            <eAnnotations xmi:id="_cCFe4MwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cCFe4cwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cCFe4swqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cTew4MwqEeuHKMjAGEF6Vg" general="_cCRFEMwqEeuHKMjAGEF6Vg"/>
+            <ownedAttribute xmi:id="_cV2vcMwqEeuHKMjAGEF6Vg" name="edad">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXP2kMwqEeuHKMjAGEF6Vg" name="ReservaNinho" specification="_cCGF8MwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXP2kcwqEeuHKMjAGEF6Vg" type="_cCE30MwqEeuHKMjAGEF6Vg" direction="return"/>
+              <language>java</language>
+              <body>super();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cCGF8MwqEeuHKMjAGEF6Vg" name="ReservaNinho" method="_cXP2kMwqEeuHKMjAGEF6Vg">
+              <eAnnotations xmi:id="_cCGtAMwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_cCGtAcwqEeuHKMjAGEF6Vg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_cCGtAswqEeuHKMjAGEF6Vg" type="_cCE30MwqEeuHKMjAGEF6Vg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cCIiMMwqEeuHKMjAGEF6Vg" name="ButacaConId">
+            <eAnnotations xmi:id="_cCJJQMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cCJJQcwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cCJJQswqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cTkQcMwqEeuHKMjAGEF6Vg" general="_cFRVwcwqEeuHKMjAGEF6Vg"/>
+            <ownedAttribute xmi:id="_cV4koMwqEeuHKMjAGEF6Vg" name="fila" type="_cCcEMMwqEeuHKMjAGEF6Vg" association="_cXWkQMwqEeuHKMjAGEF6Vg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cV-rQcwqEeuHKMjAGEF6Vg"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cWC8sMwqEeuHKMjAGEF6Vg" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cWDjwMwqEeuHKMjAGEF6Vg" name="reserva" visibility="private" type="_cCRFEMwqEeuHKMjAGEF6Vg" association="_cYqy4cwqEeuHKMjAGEF6Vg"/>
+            <ownedAttribute xmi:id="_cWFY8MwqEeuHKMjAGEF6Vg" name="sesion" visibility="private" type="_cEiV8swqEeuHKMjAGEF6Vg" association="_cZYkkMwqEeuHKMjAGEF6Vg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXXLUMwqEeuHKMjAGEF6Vg" name="ButacaConId" specification="_cCK-cMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXXLUcwqEeuHKMjAGEF6Vg" type="_cCIiMMwqEeuHKMjAGEF6Vg" direction="return"/>
+              <language>java</language>
+              <body>super();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cCK-cMwqEeuHKMjAGEF6Vg" name="ButacaConId" method="_cXXLUMwqEeuHKMjAGEF6Vg">
+              <eAnnotations xmi:id="_cCK-ccwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_cCK-cswqEeuHKMjAGEF6Vg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_cCK-c8wqEeuHKMjAGEF6Vg" type="_cCIiMMwqEeuHKMjAGEF6Vg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cCRFEMwqEeuHKMjAGEF6Vg" name="ReservaConId">
+            <eAnnotations xmi:id="_cCRsIMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cCRsIcwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cCRsIswqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cTqXEMwqEeuHKMjAGEF6Vg" general="_cFexIMwqEeuHKMjAGEF6Vg"/>
+            <ownedAttribute xmi:id="_cWJDUMwqEeuHKMjAGEF6Vg" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cWJqYMwqEeuHKMjAGEF6Vg" name="sesion" type="_cEiV8swqEeuHKMjAGEF6Vg" isReadOnly="true" association="_cZtUscwqEeuHKMjAGEF6Vg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXaOoMwqEeuHKMjAGEF6Vg" name="getButacas" specification="_cCS6QMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXaOocwqEeuHKMjAGEF6Vg" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cXaOoswqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getButacas();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXa1sMwqEeuHKMjAGEF6Vg" name="ReservaConId" specification="_cCWkoMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXa1scwqEeuHKMjAGEF6Vg" type="_cCRFEMwqEeuHKMjAGEF6Vg" direction="return"/>
+              <language>java</language>
+              <body>super();
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cCS6QMwqEeuHKMjAGEF6Vg" name="getButacas" method="_cXaOoMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cCS6QcwqEeuHKMjAGEF6Vg" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cCS6QswqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cCWkoMwqEeuHKMjAGEF6Vg" name="ReservaConId" method="_cXa1sMwqEeuHKMjAGEF6Vg">
+              <eAnnotations xmi:id="_cCXLsMwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_cCXLscwqEeuHKMjAGEF6Vg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_cCXLsswqEeuHKMjAGEF6Vg" type="_cCRFEMwqEeuHKMjAGEF6Vg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cCcEMMwqEeuHKMjAGEF6Vg" name="FilaConId">
+            <eAnnotations xmi:id="_cCcrQMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cCdSUMwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cCdSUcwqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cTszUMwqEeuHKMjAGEF6Vg" general="_cFWOQMwqEeuHKMjAGEF6Vg"/>
+            <ownedAttribute xmi:id="_cWN70MwqEeuHKMjAGEF6Vg" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cWQYEMwqEeuHKMjAGEF6Vg" name="sala" type="_cDaUkMwqEeuHKMjAGEF6Vg" association="_cXbcwswqEeuHKMjAGEF6Vg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cWSNQMwqEeuHKMjAGEF6Vg"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXcD0MwqEeuHKMjAGEF6Vg" name="getButacas" specification="_cCd5YMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXcD0cwqEeuHKMjAGEF6Vg" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cXcD0swqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getButacas();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXcq4MwqEeuHKMjAGEF6Vg" name="FilaConId" specification="_cC268MwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXcq4cwqEeuHKMjAGEF6Vg" type="_cCcEMMwqEeuHKMjAGEF6Vg" direction="return"/>
+              <language>java</language>
+              <body>super();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXcq4swqEeuHKMjAGEF6Vg" name="addButaca" specification="_cTsMQMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXcq48wqEeuHKMjAGEF6Vg" name="butaca" type="_cCIiMMwqEeuHKMjAGEF6Vg"/>
+              <language>java</language>
+              <body>this.getButacas().add(butaca);
+		butaca.setFila(this);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cCd5YMwqEeuHKMjAGEF6Vg" name="getButacas" method="_cXcD0MwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cCegcMwqEeuHKMjAGEF6Vg" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cCegccwqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cC268MwqEeuHKMjAGEF6Vg" name="FilaConId" method="_cXcq4MwqEeuHKMjAGEF6Vg">
+              <eAnnotations xmi:id="_cC4JEMwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_cC4JEcwqEeuHKMjAGEF6Vg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_cC4JEswqEeuHKMjAGEF6Vg" type="_cCcEMMwqEeuHKMjAGEF6Vg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cTsMQMwqEeuHKMjAGEF6Vg" name="addButaca" method="_cXcq4swqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cTsMQcwqEeuHKMjAGEF6Vg" name="butaca" type="_cCIiMMwqEeuHKMjAGEF6Vg"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cDaUkMwqEeuHKMjAGEF6Vg" name="SalaConId">
+            <eAnnotations xmi:id="_cDa7oMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cDa7ocwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cDa7oswqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cUQM8MwqEeuHKMjAGEF6Vg" general="_cFms8MwqEeuHKMjAGEF6Vg"/>
+            <ownedAttribute xmi:id="_cWV3oMwqEeuHKMjAGEF6Vg" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cWWesMwqEeuHKMjAGEF6Vg" name="sesiones" visibility="private" type="_cEiV8swqEeuHKMjAGEF6Vg" isOrdered="true" association="_cZ3swcwqEeuHKMjAGEF6Vg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cWXs0MwqEeuHKMjAGEF6Vg" value="*"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXdR8MwqEeuHKMjAGEF6Vg" name="getFilas" specification="_cDfNEMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXdR8cwqEeuHKMjAGEF6Vg" type="_cFWOQMwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cXdR8swqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getFilas();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXd5AMwqEeuHKMjAGEF6Vg" name="SalaConId" specification="_cDkFkMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXd5AcwqEeuHKMjAGEF6Vg" type="_cDaUkMwqEeuHKMjAGEF6Vg" direction="return"/>
+              <language>java</language>
+              <body>super();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXd5AswqEeuHKMjAGEF6Vg" name="getSesiones" specification="_cDksoMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXd5A8wqEeuHKMjAGEF6Vg" type="_cEiV8swqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cXd5BMwqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return sesiones;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXegEMwqEeuHKMjAGEF6Vg" name="addSesion" specification="_cUNwsMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXegEcwqEeuHKMjAGEF6Vg" name="sesion" type="_cEiV8swqEeuHKMjAGEF6Vg"/>
+              <language>java</language>
+              <body>this.sesiones.add(sesion);
+		sesion.setSala(this);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cDfNEMwqEeuHKMjAGEF6Vg" name="getFilas" method="_cXdR8MwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cDf0IMwqEeuHKMjAGEF6Vg" type="_cFWOQMwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDf0IcwqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cDkFkMwqEeuHKMjAGEF6Vg" name="SalaConId" method="_cXd5AMwqEeuHKMjAGEF6Vg">
+              <eAnnotations xmi:id="_cDkFkcwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_cDkFkswqEeuHKMjAGEF6Vg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_cDkFk8wqEeuHKMjAGEF6Vg" type="_cDaUkMwqEeuHKMjAGEF6Vg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cDksoMwqEeuHKMjAGEF6Vg" name="getSesiones" method="_cXd5AswqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cDksocwqEeuHKMjAGEF6Vg" type="_cEiV8swqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cDlTsMwqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cUNwsMwqEeuHKMjAGEF6Vg" name="addSesion" method="_cXegEMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cUOXwMwqEeuHKMjAGEF6Vg" name="sesion" type="_cEiV8swqEeuHKMjAGEF6Vg"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cEiV8swqEeuHKMjAGEF6Vg" name="SesionConId">
+            <eAnnotations xmi:id="_cEjkEMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cEjkEcwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cEjkEswqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cUe2ccwqEeuHKMjAGEF6Vg" general="_cFpwQMwqEeuHKMjAGEF6Vg"/>
+            <ownedAttribute xmi:id="_cWZiAMwqEeuHKMjAGEF6Vg" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cWaJEMwqEeuHKMjAGEF6Vg" name="reservas" type="_cCRFEMwqEeuHKMjAGEF6Vg" isOrdered="true" isReadOnly="true" association="_caBdwMwqEeuHKMjAGEF6Vg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cWbXMMwqEeuHKMjAGEF6Vg" value="*"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXfHI8wqEeuHKMjAGEF6Vg" name="getButacas" specification="_cEnOcMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXfHJMwqEeuHKMjAGEF6Vg" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cXfHJcwqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getButacas();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXgVQMwqEeuHKMjAGEF6Vg" name="getSala" specification="_cExmgswqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXgVQcwqEeuHKMjAGEF6Vg" type="_cFms8MwqEeuHKMjAGEF6Vg" direction="return"/>
+              <language>java</language>
+              <body>return super.getSala();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXj_oMwqEeuHKMjAGEF6Vg" name="SesionConId" specification="_cE3GEMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXj_ocwqEeuHKMjAGEF6Vg" type="_cEiV8swqEeuHKMjAGEF6Vg" direction="return"/>
+              <language>java</language>
+              <body>super();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXkmsMwqEeuHKMjAGEF6Vg" name="addReserva" specification="_cUePYMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cXkmscwqEeuHKMjAGEF6Vg" name="reserva" type="_cCRFEMwqEeuHKMjAGEF6Vg"/>
+              <language>java</language>
+              <body>this.reservas.add(reserva);
+		reserva.setSesion(this);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cEnOcMwqEeuHKMjAGEF6Vg" name="getButacas" method="_cXfHI8wqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cEsG8MwqEeuHKMjAGEF6Vg" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cEsuAMwqEeuHKMjAGEF6Vg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cExmgswqEeuHKMjAGEF6Vg" name="getSala" method="_cXgVQMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cUbzIMwqEeuHKMjAGEF6Vg" type="_cFms8MwqEeuHKMjAGEF6Vg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cE3GEMwqEeuHKMjAGEF6Vg" name="SesionConId" method="_cXj_oMwqEeuHKMjAGEF6Vg">
+              <eAnnotations xmi:id="_cE3GEcwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_cE3GEswqEeuHKMjAGEF6Vg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_cE3tIMwqEeuHKMjAGEF6Vg" type="_cEiV8swqEeuHKMjAGEF6Vg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cUePYMwqEeuHKMjAGEF6Vg" name="addReserva" method="_cXkmsMwqEeuHKMjAGEF6Vg">
+              <ownedParameter xmi:id="_cUe2cMwqEeuHKMjAGEF6Vg" name="reserva" type="_cCRFEMwqEeuHKMjAGEF6Vg"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_cXWkQMwqEeuHKMjAGEF6Vg" name="" memberEnd="_cV4koMwqEeuHKMjAGEF6Vg _cXV9MMwqEeuHKMjAGEF6Vg">
+            <ownedEnd xmi:id="_cXV9MMwqEeuHKMjAGEF6Vg" name="" type="_cCIiMMwqEeuHKMjAGEF6Vg" association="_cXWkQMwqEeuHKMjAGEF6Vg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cXV9McwqEeuHKMjAGEF6Vg" value="*"/>
+            </ownedEnd>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_cXbcwswqEeuHKMjAGEF6Vg" name="" memberEnd="_cWQYEMwqEeuHKMjAGEF6Vg _cXbcwMwqEeuHKMjAGEF6Vg">
+            <ownedEnd xmi:id="_cXbcwMwqEeuHKMjAGEF6Vg" name="" type="_cCcEMMwqEeuHKMjAGEF6Vg" association="_cXbcwswqEeuHKMjAGEF6Vg">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cXbcwcwqEeuHKMjAGEF6Vg" value="*"/>
+            </ownedEnd>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_cYqy4cwqEeuHKMjAGEF6Vg" name="" memberEnd="_cYqy4swqEeuHKMjAGEF6Vg _cWDjwMwqEeuHKMjAGEF6Vg">
+            <ownedEnd xmi:id="_cYqy4swqEeuHKMjAGEF6Vg" name="" type="_cCIiMMwqEeuHKMjAGEF6Vg" association="_cYqy4cwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_cZYkkMwqEeuHKMjAGEF6Vg" name="" memberEnd="_cZYkkcwqEeuHKMjAGEF6Vg _cWFY8MwqEeuHKMjAGEF6Vg">
+            <ownedEnd xmi:id="_cZYkkcwqEeuHKMjAGEF6Vg" name="" type="_cCIiMMwqEeuHKMjAGEF6Vg" association="_cZYkkMwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_cZtUscwqEeuHKMjAGEF6Vg" name="" memberEnd="_cZtUsswqEeuHKMjAGEF6Vg _cWJqYMwqEeuHKMjAGEF6Vg">
+            <ownedEnd xmi:id="_cZtUsswqEeuHKMjAGEF6Vg" name="" type="_cCRFEMwqEeuHKMjAGEF6Vg" association="_cZtUscwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_cZ3swcwqEeuHKMjAGEF6Vg" name="" memberEnd="_cZ3swswqEeuHKMjAGEF6Vg _cWWesMwqEeuHKMjAGEF6Vg">
+            <ownedEnd xmi:id="_cZ3swswqEeuHKMjAGEF6Vg" name="" type="_cDaUkMwqEeuHKMjAGEF6Vg" association="_cZ3swcwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_caBdwMwqEeuHKMjAGEF6Vg" name="" memberEnd="_caBdwcwqEeuHKMjAGEF6Vg _cWaJEMwqEeuHKMjAGEF6Vg">
+            <ownedEnd xmi:id="_caBdwcwqEeuHKMjAGEF6Vg" name="" type="_cEiV8swqEeuHKMjAGEF6Vg" association="_caBdwMwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_b_EnIMwqEeuHKMjAGEF6Vg" name="soiza">
+          <packagedElement xmi:type="uml:Package" xmi:id="_b_EnIcwqEeuHKMjAGEF6Vg" name="Ticketing">
+            <packagedElement xmi:type="uml:Package" xmi:id="_b_EnIswqEeuHKMjAGEF6Vg" name="comun">
+              <packagedElement xmi:type="uml:Class" xmi:id="_cFRVwcwqEeuHKMjAGEF6Vg" name="Butaca">
+                <ownedAttribute xmi:id="_cWeagMwqEeuHKMjAGEF6Vg" name="disponible">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_cWeagcwqEeuHKMjAGEF6Vg" name="numeroButaca">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXnqAMwqEeuHKMjAGEF6Vg" name="Butaca" specification="_cFVAIMwqEeuHKMjAGEF6Vg">
+                  <ownedParameter xmi:id="_cXnqAcwqEeuHKMjAGEF6Vg" type="_cFRVwcwqEeuHKMjAGEF6Vg" direction="return"/>
+                  <language>java</language>
+                  <body>super();
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_cFVAIMwqEeuHKMjAGEF6Vg" name="Butaca" method="_cXnqAMwqEeuHKMjAGEF6Vg">
+                  <eAnnotations xmi:id="_cFVAIcwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_cFVAIswqEeuHKMjAGEF6Vg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_cFVAI8wqEeuHKMjAGEF6Vg" type="_cFRVwcwqEeuHKMjAGEF6Vg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_cFWOQMwqEeuHKMjAGEF6Vg" name="Fila">
+                <ownedAttribute xmi:id="_cWfBkMwqEeuHKMjAGEF6Vg" name="butacas" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" association="_caLOwMwqEeuHKMjAGEF6Vg">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cWfBkcwqEeuHKMjAGEF6Vg" value="*"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXoREMwqEeuHKMjAGEF6Vg" name="Fila" specification="_cFXcYMwqEeuHKMjAGEF6Vg">
+                  <ownedParameter xmi:id="_cXoREcwqEeuHKMjAGEF6Vg" type="_cFWOQMwqEeuHKMjAGEF6Vg" direction="return"/>
+                  <language>java</language>
+                  <body>super();
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_cFXcYMwqEeuHKMjAGEF6Vg" name="Fila" method="_cXoREMwqEeuHKMjAGEF6Vg">
+                  <eAnnotations xmi:id="_cFXcYcwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_cFXcYswqEeuHKMjAGEF6Vg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_cFXcY8wqEeuHKMjAGEF6Vg" type="_cFWOQMwqEeuHKMjAGEF6Vg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_cFZRkMwqEeuHKMjAGEF6Vg" name="Reserva">
+                <ownedAttribute xmi:id="_cFafsMwqEeuHKMjAGEF6Vg" name="sesion" type="_cFpwQMwqEeuHKMjAGEF6Vg" isReadOnly="true" association="_cYHZQMwqEeuHKMjAGEF6Vg"/>
+                <ownedAttribute xmi:id="_cFbGwMwqEeuHKMjAGEF6Vg" name="butacas" visibility="package" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" association="_cX9oQMwqEeuHKMjAGEF6Vg">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cFbt0MwqEeuHKMjAGEF6Vg" value="*"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_cFcU4MwqEeuHKMjAGEF6Vg" name="fechaHoraInicio" type="_cUh5wMwqEeuHKMjAGEF6Vg" isReadOnly="true" association="_cYTmgcwqEeuHKMjAGEF6Vg"/>
+                <ownedAttribute xmi:id="_cFc78MwqEeuHKMjAGEF6Vg" name="fechaHoraFin" type="_cUh5wMwqEeuHKMjAGEF6Vg" isReadOnly="true" association="_cYelocwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_cFexIMwqEeuHKMjAGEF6Vg" name="ReservaImpl">
+                <ownedAttribute xmi:id="_cWfooMwqEeuHKMjAGEF6Vg" name="sesion" type="_cFpwQMwqEeuHKMjAGEF6Vg" association="_cX-PUMwqEeuHKMjAGEF6Vg"/>
+                <ownedAttribute xmi:id="_cWtEAMwqEeuHKMjAGEF6Vg" name="butacas" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" association="_caq-AcwqEeuHKMjAGEF6Vg">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cWtEAcwqEeuHKMjAGEF6Vg" value="*"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_cWtrEMwqEeuHKMjAGEF6Vg" value="new ArrayList&lt;>()"/>
+                </ownedAttribute>
+                <interfaceRealization xmi:id="_cUuHAMwqEeuHKMjAGEF6Vg" client="_cFexIMwqEeuHKMjAGEF6Vg" supplier="_cFZRkMwqEeuHKMjAGEF6Vg" contract="_cFZRkMwqEeuHKMjAGEF6Vg"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXoREswqEeuHKMjAGEF6Vg" name="ReservaImpl" specification="_cFf_QMwqEeuHKMjAGEF6Vg">
+                  <ownedParameter xmi:id="_cXoRE8wqEeuHKMjAGEF6Vg" type="_cFexIMwqEeuHKMjAGEF6Vg" direction="return"/>
+                  <language>java</language>
+                  <body>super();
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXo4IMwqEeuHKMjAGEF6Vg" name="getFechaHoraInicio" specification="_cFgmUMwqEeuHKMjAGEF6Vg">
+                  <ownedParameter xmi:id="_cXo4IcwqEeuHKMjAGEF6Vg" type="_cUh5wMwqEeuHKMjAGEF6Vg" direction="return"/>
+                  <language>java</language>
+                  <body>return this.sesion.getFechaHoraInicio();
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXpfMMwqEeuHKMjAGEF6Vg" name="getFechaHoraFin" specification="_cFibgcwqEeuHKMjAGEF6Vg">
+                  <ownedParameter xmi:id="_cXpfMcwqEeuHKMjAGEF6Vg" type="_cUh5wMwqEeuHKMjAGEF6Vg" direction="return"/>
+                  <language>java</language>
+                  <body>return this.sesion.getFechaHoraFin();
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_cFf_QMwqEeuHKMjAGEF6Vg" name="ReservaImpl" method="_cXoREswqEeuHKMjAGEF6Vg">
+                  <eAnnotations xmi:id="_cFf_QcwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_cFf_QswqEeuHKMjAGEF6Vg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_cFf_Q8wqEeuHKMjAGEF6Vg" type="_cFexIMwqEeuHKMjAGEF6Vg" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_cFgmUMwqEeuHKMjAGEF6Vg" name="getFechaHoraInicio" method="_cXo4IMwqEeuHKMjAGEF6Vg">
+                  <ownedParameter xmi:id="_cVkbkMwqEeuHKMjAGEF6Vg" type="_cUh5wMwqEeuHKMjAGEF6Vg" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_cFibgcwqEeuHKMjAGEF6Vg" name="getFechaHoraFin" method="_cXpfMMwqEeuHKMjAGEF6Vg">
+                  <ownedParameter xmi:id="_cVlCoMwqEeuHKMjAGEF6Vg" type="_cUh5wMwqEeuHKMjAGEF6Vg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_cFms8MwqEeuHKMjAGEF6Vg" name="Sala">
+                <ownedAttribute xmi:id="_cWuSIMwqEeuHKMjAGEF6Vg" name="filas" type="_cFWOQMwqEeuHKMjAGEF6Vg" isOrdered="true" association="_ca4ZYMwqEeuHKMjAGEF6Vg">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cWu5MMwqEeuHKMjAGEF6Vg" value="*"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXpfMswqEeuHKMjAGEF6Vg" name="Sala" specification="_cFn7EMwqEeuHKMjAGEF6Vg">
+                  <ownedParameter xmi:id="_cXpfM8wqEeuHKMjAGEF6Vg" type="_cFms8MwqEeuHKMjAGEF6Vg" direction="return"/>
+                  <language>java</language>
+                  <body>super();
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_cFn7EMwqEeuHKMjAGEF6Vg" name="Sala" method="_cXpfMswqEeuHKMjAGEF6Vg">
+                  <eAnnotations xmi:id="_cFoiIMwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_cFoiIcwqEeuHKMjAGEF6Vg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_cFoiIswqEeuHKMjAGEF6Vg" type="_cFms8MwqEeuHKMjAGEF6Vg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_cFpwQMwqEeuHKMjAGEF6Vg" name="Sesion">
+                <ownedAttribute xmi:id="_cWu5McwqEeuHKMjAGEF6Vg" name="sala" type="_cFms8MwqEeuHKMjAGEF6Vg" association="_cX-PUswqEeuHKMjAGEF6Vg"/>
+                <ownedAttribute xmi:id="_cWvgQMwqEeuHKMjAGEF6Vg" name="FechaHoraInicio" type="_cUh5wMwqEeuHKMjAGEF6Vg" association="_cX-2YcwqEeuHKMjAGEF6Vg"/>
+                <ownedAttribute xmi:id="_cWvgQcwqEeuHKMjAGEF6Vg" name="FechaHoraFin" type="_cUh5wMwqEeuHKMjAGEF6Vg" association="_cX-2Y8wqEeuHKMjAGEF6Vg"/>
+                <ownedAttribute xmi:id="_cWxVcMwqEeuHKMjAGEF6Vg" name="butacas" type="_cFRVwcwqEeuHKMjAGEF6Vg" isOrdered="true" association="_cbI4EcwqEeuHKMjAGEF6Vg">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cWxVccwqEeuHKMjAGEF6Vg" value="*"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXqGQMwqEeuHKMjAGEF6Vg" name="Sesion" specification="_cGCx0MwqEeuHKMjAGEF6Vg">
+                  <ownedParameter xmi:id="_cXqGQcwqEeuHKMjAGEF6Vg" type="_cFpwQMwqEeuHKMjAGEF6Vg" direction="return"/>
+                  <language>java</language>
+                  <body>super();
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_cGCx0MwqEeuHKMjAGEF6Vg" name="Sesion" method="_cXqGQMwqEeuHKMjAGEF6Vg">
+                  <eAnnotations xmi:id="_cGCx0cwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_cGCx0swqEeuHKMjAGEF6Vg" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_cGCx08wqEeuHKMjAGEF6Vg" type="_cFpwQMwqEeuHKMjAGEF6Vg" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cX9oQMwqEeuHKMjAGEF6Vg" name="" memberEnd="_cFbGwMwqEeuHKMjAGEF6Vg _cX9oQcwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_cX9oQcwqEeuHKMjAGEF6Vg" name="" type="_cFZRkMwqEeuHKMjAGEF6Vg" association="_cX9oQMwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cX-PUMwqEeuHKMjAGEF6Vg" name="" memberEnd="_cWfooMwqEeuHKMjAGEF6Vg _cX-PUcwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_cX-PUcwqEeuHKMjAGEF6Vg" name="" type="_cFexIMwqEeuHKMjAGEF6Vg" association="_cX-PUMwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cX-PUswqEeuHKMjAGEF6Vg" name="" memberEnd="_cWu5McwqEeuHKMjAGEF6Vg _cX-2YMwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_cX-2YMwqEeuHKMjAGEF6Vg" name="" type="_cFpwQMwqEeuHKMjAGEF6Vg" association="_cX-PUswqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cX-2YcwqEeuHKMjAGEF6Vg" name="" memberEnd="_cWvgQMwqEeuHKMjAGEF6Vg _cX-2YswqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_cX-2YswqEeuHKMjAGEF6Vg" name="" type="_cFpwQMwqEeuHKMjAGEF6Vg" association="_cX-2YcwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cX-2Y8wqEeuHKMjAGEF6Vg" name="" memberEnd="_cWvgQcwqEeuHKMjAGEF6Vg _cX_dcMwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_cX_dcMwqEeuHKMjAGEF6Vg" name="" type="_cFpwQMwqEeuHKMjAGEF6Vg" association="_cX-2Y8wqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cYHZQMwqEeuHKMjAGEF6Vg" name="" memberEnd="_cYHZQcwqEeuHKMjAGEF6Vg _cFafsMwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_cYHZQcwqEeuHKMjAGEF6Vg" name="" type="_cFZRkMwqEeuHKMjAGEF6Vg" association="_cYHZQMwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cYTmgcwqEeuHKMjAGEF6Vg" name="" memberEnd="_cYTmgswqEeuHKMjAGEF6Vg _cFcU4MwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_cYTmgswqEeuHKMjAGEF6Vg" name="" type="_cFZRkMwqEeuHKMjAGEF6Vg" association="_cYTmgcwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cYelocwqEeuHKMjAGEF6Vg" name="" memberEnd="_cYeloswqEeuHKMjAGEF6Vg _cFc78MwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_cYeloswqEeuHKMjAGEF6Vg" name="" type="_cFZRkMwqEeuHKMjAGEF6Vg" association="_cYelocwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_caLOwMwqEeuHKMjAGEF6Vg" name="" memberEnd="_caLOwcwqEeuHKMjAGEF6Vg _cWfBkMwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_caLOwcwqEeuHKMjAGEF6Vg" name="" type="_cFWOQMwqEeuHKMjAGEF6Vg" association="_caLOwMwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_caq-AcwqEeuHKMjAGEF6Vg" name="" memberEnd="_caq-AswqEeuHKMjAGEF6Vg _cWtEAMwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_caq-AswqEeuHKMjAGEF6Vg" name="" type="_cFexIMwqEeuHKMjAGEF6Vg" association="_caq-AcwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_ca4ZYMwqEeuHKMjAGEF6Vg" name="" memberEnd="_ca4ZYcwqEeuHKMjAGEF6Vg _cWuSIMwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_ca4ZYcwqEeuHKMjAGEF6Vg" name="" type="_cFms8MwqEeuHKMjAGEF6Vg" association="_ca4ZYMwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cbI4EcwqEeuHKMjAGEF6Vg" name="" memberEnd="_cbI4EswqEeuHKMjAGEF6Vg _cWxVcMwqEeuHKMjAGEF6Vg">
+                <ownedEnd xmi:id="_cbI4EswqEeuHKMjAGEF6Vg" name="" type="_cFpwQMwqEeuHKMjAGEF6Vg" association="_cbI4EcwqEeuHKMjAGEF6Vg"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_cFBeIMwqEeuHKMjAGEF6Vg" name="TicketingApplication">
+              <ownedOperation xmi:id="_cFFIgMwqEeuHKMjAGEF6Vg" name="main" isStatic="true">
+                <ownedParameter xmi:id="_cFFIgcwqEeuHKMjAGEF6Vg" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cFKBAcwqEeuHKMjAGEF6Vg" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_cANPkMwqEeuHKMjAGEF6Vg" name="Ticketingapi">
+            <packagedElement xmi:type="uml:Class" xmi:id="_cEPbAMwqEeuHKMjAGEF6Vg" name="TicketingApiApplicationTests" visibility="package">
+              <eAnnotations xmi:id="_cEUTgMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+                <contents xmi:type="ecore:EAnnotation" xmi:id="_cEUTgcwqEeuHKMjAGEF6Vg" source="codegen">
+                  <details xmi:id="_cEZMAMwqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/test/java"/>
+                </contents>
+              </eAnnotations>
+              <ownedOperation xmi:id="_cEcPUcwqEeuHKMjAGEF6Vg" name="contextLoads" visibility="package"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_b_k9cMwqEeuHKMjAGEF6Vg" name="repositorios">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_cDAE4MwqEeuHKMjAGEF6Vg" name="ButacaDAO">
+            <eAnnotations xmi:id="_cDAr8MwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cDAr8cwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cDAr8swqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cVXnQMwqEeuHKMjAGEF6Vg" general="_cT-gIMwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_cD9HIMwqEeuHKMjAGEF6Vg" name="FilaDAO">
+            <eAnnotations xmi:id="_cD_jYMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cD_jYcwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cD_jYswqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cVaqkMwqEeuHKMjAGEF6Vg" general="_cT-gIMwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_cEGREMwqEeuHKMjAGEF6Vg" name="ReservaDAO">
+            <eAnnotations xmi:id="_cEHfMMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cEHfMcwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cEHfMswqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cVb4scwqEeuHKMjAGEF6Vg" general="_cT-gIMwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_cEJ7cMwqEeuHKMjAGEF6Vg" name="SalaDAO">
+            <eAnnotations xmi:id="_cEKigMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cEKigcwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cEKigswqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cVgKIMwqEeuHKMjAGEF6Vg" general="_cT-gIMwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_cEM-wMwqEeuHKMjAGEF6Vg" name="SesionDAO">
+            <eAnnotations xmi:id="_cENl0MwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cENl0cwqEeuHKMjAGEF6Vg" source="codegen">
+                <details xmi:id="_cENl0swqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cVhYQMwqEeuHKMjAGEF6Vg" general="_cT-gIMwqEeuHKMjAGEF6Vg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cBVQ8MwqEeuHKMjAGEF6Vg" name="ConfiguracionPorJava">
+          <eAnnotations xmi:id="_cBdMwMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_cBdMwcwqEeuHKMjAGEF6Vg" source="codegen">
+              <details xmi:id="_cBdMwswqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+            </contents>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cBoy8cwqEeuHKMjAGEF6Vg" name="TicketingApiApplication">
+          <eAnnotations xmi:id="_cBpaAMwqEeuHKMjAGEF6Vg" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_cBpaAcwqEeuHKMjAGEF6Vg" source="codegen">
+              <details xmi:id="_cBpaAswqEeuHKMjAGEF6Vg" key="codegenDirectory" value="/Ticketing-api/src/main/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cXH6wMwqEeuHKMjAGEF6Vg" name="main" specification="_cBzLAMwqEeuHKMjAGEF6Vg">
+            <ownedParameter xmi:id="_cXH6wcwqEeuHKMjAGEF6Vg" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cXH6wswqEeuHKMjAGEF6Vg" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(TicketingApiApplication.class, args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_cBzLAMwqEeuHKMjAGEF6Vg" name="main" isStatic="true" method="_cXH6wMwqEeuHKMjAGEF6Vg">
+            <ownedParameter xmi:id="_cBzyEMwqEeuHKMjAGEF6Vg" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cB1nQcwqEeuHKMjAGEF6Vg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_b-jpwMwqEeuHKMjAGEF6Vg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_b-kQ0MwqEeuHKMjAGEF6Vg" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_b-mtEMwqEeuHKMjAGEF6Vg" name="context">
+          <packagedElement xmi:type="uml:Package" xmi:id="_b-nUIMwqEeuHKMjAGEF6Vg" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_cTQucMwqEeuHKMjAGEF6Vg" name="Configuration"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_cTZ4YMwqEeuHKMjAGEF6Vg" name="ImportResource"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_b-uB0MwqEeuHKMjAGEF6Vg" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_b-vP8MwqEeuHKMjAGEF6Vg" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_cTYqQMwqEeuHKMjAGEF6Vg" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_cAMBc8wqEeuHKMjAGEF6Vg" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_cAMogMwqEeuHKMjAGEF6Vg" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_cUYv0cwqEeuHKMjAGEF6Vg" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cTWOAMwqEeuHKMjAGEF6Vg" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_b_h6IMwqEeuHKMjAGEF6Vg" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_b_h6IcwqEeuHKMjAGEF6Vg" name="jpa">
+            <packagedElement xmi:type="uml:Package" xmi:id="_b_ihMMwqEeuHKMjAGEF6Vg" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_cT-gIMwqEeuHKMjAGEF6Vg" name="JpaRepository"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_b_jIQMwqEeuHKMjAGEF6Vg" name="rest">
+            <packagedElement xmi:type="uml:Package" xmi:id="_b_jIQcwqEeuHKMjAGEF6Vg" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_b_jIQswqEeuHKMjAGEF6Vg" name="annotation">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_cUGb8MwqEeuHKMjAGEF6Vg" name="RepositoryRestResource"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cAMBcMwqEeuHKMjAGEF6Vg" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_cAMBccwqEeuHKMjAGEF6Vg" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_cAMBcswqEeuHKMjAGEF6Vg" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_cUVFcMwqEeuHKMjAGEF6Vg" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_b_EAEMwqEeuHKMjAGEF6Vg" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_b_EAEcwqEeuHKMjAGEF6Vg" name="persistence">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_cTew4cwqEeuHKMjAGEF6Vg" name="FetchType"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_cTf_AcwqEeuHKMjAGEF6Vg" name="JoinColumn"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_cThNIcwqEeuHKMjAGEF6Vg" name="ManyToOne"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_cTibQMwqEeuHKMjAGEF6Vg" name="OneToMany"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_cToh4MwqEeuHKMjAGEF6Vg" name="CascadeType"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_b_SpkMwqEeuHKMjAGEF6Vg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_b_TQoMwqEeuHKMjAGEF6Vg" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_cTmFoMwqEeuHKMjAGEF6Vg" name="Collection"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_cTnTwcwqEeuHKMjAGEF6Vg" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cUmyQMwqEeuHKMjAGEF6Vg" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cAVycMwqEeuHKMjAGEF6Vg" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_cUh5wMwqEeuHKMjAGEF6Vg" name="LocalDateTime"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_bCDlQMwqEeuHKMjAGEF6Vg">
+      <eAnnotations xmi:id="_bCGBgMwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_cV5LsMwqEeuHKMjAGEF6Vg">
+      <eAnnotations xmi:id="_cV5LscwqEeuHKMjAGEF6Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_bCJr4MwqEeuHKMjAGEF6Vg" base_Package="_YQ-kwMwqEeuHKMjAGEF6Vg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cBfpAMwqEeuHKMjAGEF6Vg" base_Element="_cBVQ8MwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cBoL4MwqEeuHKMjAGEF6Vg" base_Element="_cBVQ8MwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cBoy8MwqEeuHKMjAGEF6Vg" name="Configuration"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cBqBEMwqEeuHKMjAGEF6Vg" base_Element="_cBoy8cwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:StyledElement xmi:id="_cB1nQMwqEeuHKMjAGEF6Vg" base_Element="_cBzLAMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cB21YMwqEeuHKMjAGEF6Vg" base_Element="_cBoy8cwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cB21YcwqEeuHKMjAGEF6Vg" name="SpringBootApplication"/>
+    <annotations xmi:id="_cB5RoMwqEeuHKMjAGEF6Vg" name="ImportResource">
+      <annotationParameters xmi:id="_cB5RocwqEeuHKMjAGEF6Vg" skipName="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cXrUYMwqEeuHKMjAGEF6Vg" value="&quot;classpath:config/jpa-config.xml&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cCThUMwqEeuHKMjAGEF6Vg" base_Element="_cCS6QMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cCUvcMwqEeuHKMjAGEF6Vg" base_Element="_cCS6QMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cCUvccwqEeuHKMjAGEF6Vg" name="Override"/>
+    <annotations xmi:id="_cCUvcswqEeuHKMjAGEF6Vg" name="OneToMany">
+      <annotationParameters xmi:id="_cCUvc8wqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX595cwqEeuHKMjAGEF6Vg" value="ButacaConId.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cCwNQMwqEeuHKMjAGEF6Vg" base_Element="_cCd5YMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cCyCcMwqEeuHKMjAGEF6Vg" base_Element="_cCd5YMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cCyCccwqEeuHKMjAGEF6Vg" name="Override"/>
+    <annotations xmi:id="_cCypgMwqEeuHKMjAGEF6Vg" name="OneToMany">
+      <annotationParameters xmi:id="_cCypgcwqEeuHKMjAGEF6Vg" name="cascade" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX6k8MwqEeuHKMjAGEF6Vg" value="CascadeType.ALL"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cCypgswqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX6k8cwqEeuHKMjAGEF6Vg" value="ButacaConId.class"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cCypg8wqEeuHKMjAGEF6Vg" name="mappedBy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX6k8swqEeuHKMjAGEF6Vg" value="&quot;fila&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cDBTAMwqEeuHKMjAGEF6Vg" base_Element="_cDAE4MwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cDDIMMwqEeuHKMjAGEF6Vg" base_Element="_cDAE4MwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cDDIMcwqEeuHKMjAGEF6Vg" name="RepositoryRestResource">
+      <annotationParameters xmi:id="_cDDvQMwqEeuHKMjAGEF6Vg" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX6k88wqEeuHKMjAGEF6Vg" value="&quot;butacas&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cDDvQcwqEeuHKMjAGEF6Vg" name="itemResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX6k9MwqEeuHKMjAGEF6Vg" value="&quot;butaca&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cDDvQswqEeuHKMjAGEF6Vg" name="collectionResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX6k9cwqEeuHKMjAGEF6Vg" value="&quot;butacas&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cDgbMMwqEeuHKMjAGEF6Vg" base_Element="_cDfNEMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cDiQYMwqEeuHKMjAGEF6Vg" base_Element="_cDfNEMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cDiQYcwqEeuHKMjAGEF6Vg" name="Override"/>
+    <annotations xmi:id="_cDi3cMwqEeuHKMjAGEF6Vg" name="OneToMany">
+      <annotationParameters xmi:id="_cDi3ccwqEeuHKMjAGEF6Vg" name="cascade" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7MA8wqEeuHKMjAGEF6Vg" value="CascadeType.ALL"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cDi3cswqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7MBMwqEeuHKMjAGEF6Vg" value="FilaConId.class"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cDi3c8wqEeuHKMjAGEF6Vg" name="mappedBy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7MBcwqEeuHKMjAGEF6Vg" value="&quot;sala&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cEAKcMwqEeuHKMjAGEF6Vg" base_Element="_cD9HIMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cEBYkMwqEeuHKMjAGEF6Vg" base_Element="_cD9HIMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cEBYkcwqEeuHKMjAGEF6Vg" name="RepositoryRestResource">
+      <annotationParameters xmi:id="_cEBYkswqEeuHKMjAGEF6Vg" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7MBswqEeuHKMjAGEF6Vg" value="&quot;filas&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cEBYk8wqEeuHKMjAGEF6Vg" name="itemResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7zEMwqEeuHKMjAGEF6Vg" value="&quot;fila&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cEBYlMwqEeuHKMjAGEF6Vg" name="collectionResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7zEcwqEeuHKMjAGEF6Vg" value="&quot;filas&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cEIGQMwqEeuHKMjAGEF6Vg" base_Element="_cEGREMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cEItUMwqEeuHKMjAGEF6Vg" base_Element="_cEGREMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cEItUcwqEeuHKMjAGEF6Vg" name="RepositoryRestResource">
+      <annotationParameters xmi:id="_cEItUswqEeuHKMjAGEF6Vg" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7zEswqEeuHKMjAGEF6Vg" value="&quot;reservas&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cEItU8wqEeuHKMjAGEF6Vg" name="itemResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7zE8wqEeuHKMjAGEF6Vg" value="&quot;reserva&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cEItVMwqEeuHKMjAGEF6Vg" name="collectionResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7zFMwqEeuHKMjAGEF6Vg" value="&quot;reservas&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cELJkMwqEeuHKMjAGEF6Vg" base_Element="_cEJ7cMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cELwoMwqEeuHKMjAGEF6Vg" base_Element="_cEJ7cMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cELwocwqEeuHKMjAGEF6Vg" name="RepositoryRestResource">
+      <annotationParameters xmi:id="_cELwoswqEeuHKMjAGEF6Vg" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7zFcwqEeuHKMjAGEF6Vg" value="&quot;salas&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cEMXsMwqEeuHKMjAGEF6Vg" name="itemResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7zFswqEeuHKMjAGEF6Vg" value="&quot;sala&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cEMXscwqEeuHKMjAGEF6Vg" name="collectionResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX8aIMwqEeuHKMjAGEF6Vg" value="&quot;salas&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cEOM4MwqEeuHKMjAGEF6Vg" base_Element="_cEM-wMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cEOz8MwqEeuHKMjAGEF6Vg" base_Element="_cEM-wMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cEOz8cwqEeuHKMjAGEF6Vg" name="RepositoryRestResource">
+      <annotationParameters xmi:id="_cEOz8swqEeuHKMjAGEF6Vg" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX8aIcwqEeuHKMjAGEF6Vg" value="&quot;sesiones&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cEOz88wqEeuHKMjAGEF6Vg" name="itemResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX8aIswqEeuHKMjAGEF6Vg" value="&quot;sesion&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cEOz9MwqEeuHKMjAGEF6Vg" name="collectionResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX8aI8wqEeuHKMjAGEF6Vg" value="&quot;sesiones&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cEcPUMwqEeuHKMjAGEF6Vg" base_Element="_cEPbAMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cEddcMwqEeuHKMjAGEF6Vg" base_Element="_cEcPUcwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cEeEgMwqEeuHKMjAGEF6Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cEiV8MwqEeuHKMjAGEF6Vg" base_Element="_cEPbAMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cEiV8cwqEeuHKMjAGEF6Vg" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cEtVEMwqEeuHKMjAGEF6Vg" base_Element="_cEnOcMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cEw_cMwqEeuHKMjAGEF6Vg" base_Element="_cEnOcMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cEw_ccwqEeuHKMjAGEF6Vg" name="Override"/>
+    <annotations xmi:id="_cEw_cswqEeuHKMjAGEF6Vg" name="OneToMany">
+      <annotationParameters xmi:id="_cEw_c8wqEeuHKMjAGEF6Vg" name="cascade" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX9BMcwqEeuHKMjAGEF6Vg" value="CascadeType.ALL"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cExmgMwqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX9BMswqEeuHKMjAGEF6Vg" value="ButacaConId.class"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cExmgcwqEeuHKMjAGEF6Vg" name="mappedBy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX9BM8wqEeuHKMjAGEF6Vg" value="&quot;sesion&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cE0p0MwqEeuHKMjAGEF6Vg" base_Element="_cExmgswqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cE138MwqEeuHKMjAGEF6Vg" base_Element="_cExmgswqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cE138cwqEeuHKMjAGEF6Vg" name="Override"/>
+    <annotations xmi:id="_cE2fAMwqEeuHKMjAGEF6Vg" name="ManyToOne">
+      <annotationParameters xmi:id="_cE2fAcwqEeuHKMjAGEF6Vg" name="fetch" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX9BNMwqEeuHKMjAGEF6Vg" value="FetchType.LAZY"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cE2fAswqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX9BNcwqEeuHKMjAGEF6Vg" value="SalaConId.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_cE2fA8wqEeuHKMjAGEF6Vg" name="JoinColumn">
+      <annotationParameters xmi:id="_cE2fBMwqEeuHKMjAGEF6Vg" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX9BNswqEeuHKMjAGEF6Vg" value="&quot;sala&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cFKBAMwqEeuHKMjAGEF6Vg" base_Element="_cFFIgMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Array xmi:id="_cFRVwMwqEeuHKMjAGEF6Vg" base_Element="_cFFIgcwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cFhNYMwqEeuHKMjAGEF6Vg" base_Element="_cFgmUMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cFh0cMwqEeuHKMjAGEF6Vg" base_Element="_cFgmUMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cFibgMwqEeuHKMjAGEF6Vg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cFjCkMwqEeuHKMjAGEF6Vg" base_Element="_cFibgcwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cFjpoMwqEeuHKMjAGEF6Vg" base_Element="_cFibgcwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cFjpocwqEeuHKMjAGEF6Vg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_cTSjoMwqEeuHKMjAGEF6Vg" base_Element="_cTQucMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cTYDMMwqEeuHKMjAGEF6Vg" base_Element="_cTWOAMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cTZRUMwqEeuHKMjAGEF6Vg" base_Element="_cTYqQMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cTc7sMwqEeuHKMjAGEF6Vg" base_Element="_cTZ4YMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cTf_AMwqEeuHKMjAGEF6Vg" base_Element="_cTew4cwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cThNIMwqEeuHKMjAGEF6Vg" base_Element="_cTf_AcwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cTh0MMwqEeuHKMjAGEF6Vg" base_Element="_cThNIcwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cTjCUMwqEeuHKMjAGEF6Vg" base_Element="_cTibQMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cTnTwMwqEeuHKMjAGEF6Vg" base_Element="_cTmFoMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cTn60MwqEeuHKMjAGEF6Vg" base_Element="_cTnTwcwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cTpI8MwqEeuHKMjAGEF6Vg" base_Element="_cToh4MwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cUF04MwqEeuHKMjAGEF6Vg" base_Element="_cT-gIMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cUJfQMwqEeuHKMjAGEF6Vg" base_Element="_cUGb8MwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cUYv0MwqEeuHKMjAGEF6Vg" base_Element="_cUVFcMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cUalAMwqEeuHKMjAGEF6Vg" base_Element="_cUYv0cwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cUlkIMwqEeuHKMjAGEF6Vg" base_Element="_cUh5wMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cUoAYMwqEeuHKMjAGEF6Vg" base_Element="_cUmyQMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Generics xmi:id="_cVY1YMwqEeuHKMjAGEF6Vg" genericsValue="ButacaConId,Long" base_Element="_cVXnQMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Generics xmi:id="_cVb4sMwqEeuHKMjAGEF6Vg" genericsValue="FilaConId,Long" base_Element="_cVaqkMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Generics xmi:id="_cVdt4MwqEeuHKMjAGEF6Vg" genericsValue="ReservaConId,Long" base_Element="_cVb4scwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Generics xmi:id="_cVgxMMwqEeuHKMjAGEF6Vg" genericsValue="SalaConId,Long" base_Element="_cVgKIMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Generics xmi:id="_cVh_UMwqEeuHKMjAGEF6Vg" genericsValue="SesionConId,Long" base_Element="_cVhYQMwqEeuHKMjAGEF6Vg"/>
+  <Persistency:FetchStrategy xmi:id="_cV-EMMwqEeuHKMjAGEF6Vg" base_Property="_cV4koMwqEeuHKMjAGEF6Vg" strategy="LAZY"/>
+  <Persistency:TargetEntity xmi:id="_cV-EMcwqEeuHKMjAGEF6Vg" base_Property="_cV4koMwqEeuHKMjAGEF6Vg" entityClassifier="_cCcEMMwqEeuHKMjAGEF6Vg"/>
+  <Persistency:JoinColumns xmi:id="_cV-rQMwqEeuHKMjAGEF6Vg" base_Property="_cV4koMwqEeuHKMjAGEF6Vg">
+    <columns xmi:id="_cXVWIMwqEeuHKMjAGEF6Vg" label="id_fila" unique="true"/>
+  </Persistency:JoinColumns>
+  <Persistency:JPA1StyledElement xmi:id="_cV_5YMwqEeuHKMjAGEF6Vg" base_Element="_cV4koMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cWEK0MwqEeuHKMjAGEF6Vg" base_Element="_cWDjwMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cWEx4MwqEeuHKMjAGEF6Vg" base_Element="_cWDjwMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cWEx4cwqEeuHKMjAGEF6Vg" name="ManyToOne">
+      <annotationParameters xmi:id="_cWEx4swqEeuHKMjAGEF6Vg" name="fetch" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cXr7cMwqEeuHKMjAGEF6Vg" value="FetchType.LAZY"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cWEx48wqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cXr7ccwqEeuHKMjAGEF6Vg" value="ReservaConId.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_cWEx5MwqEeuHKMjAGEF6Vg" name="JoinColumn">
+      <annotationParameters xmi:id="_cWEx5cwqEeuHKMjAGEF6Vg" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX0eUMwqEeuHKMjAGEF6Vg" value="&quot;id_reserva&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cWGAAMwqEeuHKMjAGEF6Vg" base_Element="_cWFY8MwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cWIcQMwqEeuHKMjAGEF6Vg" base_Element="_cWFY8MwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cWIcQcwqEeuHKMjAGEF6Vg" name="ManyToOne">
+      <annotationParameters xmi:id="_cWIcQswqEeuHKMjAGEF6Vg" name="fetch" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX2TgMwqEeuHKMjAGEF6Vg" value="FetchType.LAZY"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cWIcQ8wqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX4vwMwqEeuHKMjAGEF6Vg" value="SesionConId.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_cWIcRMwqEeuHKMjAGEF6Vg" name="JoinColumn">
+      <annotationParameters xmi:id="_cWIcRcwqEeuHKMjAGEF6Vg" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX5W0MwqEeuHKMjAGEF6Vg" value="&quot;id_sesion&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cWKRcMwqEeuHKMjAGEF6Vg" base_Element="_cWJqYMwqEeuHKMjAGEF6Vg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_cWKRccwqEeuHKMjAGEF6Vg" name="getSesion" method="_cXXyYMwqEeuHKMjAGEF6Vg">
+      <ownedParameter xmi:id="_cWK4gMwqEeuHKMjAGEF6Vg" type="_cFpwQMwqEeuHKMjAGEF6Vg" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_cWK4gcwqEeuHKMjAGEF6Vg" base_Element="_cWJqYMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cWLfkMwqEeuHKMjAGEF6Vg" name="ManyToOne">
+      <annotationParameters xmi:id="_cWLfkcwqEeuHKMjAGEF6Vg" name="fetch" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX594MwqEeuHKMjAGEF6Vg" value="FetchType.LAZY"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_cWLfkswqEeuHKMjAGEF6Vg" name="JoinColumn">
+      <annotationParameters xmi:id="_cWLfk8wqEeuHKMjAGEF6Vg" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX594cwqEeuHKMjAGEF6Vg" value="&quot;id_sesion&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cWMGoMwqEeuHKMjAGEF6Vg" base_Element="_cWKRccwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cWMGocwqEeuHKMjAGEF6Vg" name="Override"/>
+    <annotations xmi:id="_cWMGoswqEeuHKMjAGEF6Vg" name="ManyToOne">
+      <annotationParameters xmi:id="_cWMtsMwqEeuHKMjAGEF6Vg" name="fetch" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX594swqEeuHKMjAGEF6Vg" value="FetchType.LAZY"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cWMtscwqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX5948wqEeuHKMjAGEF6Vg" value="SesionConId.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_cWMtsswqEeuHKMjAGEF6Vg" name="JoinColumn">
+      <annotationParameters xmi:id="_cWMts8wqEeuHKMjAGEF6Vg" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX595MwqEeuHKMjAGEF6Vg" value="&quot;id_sesion&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <Persistency:FetchStrategy xmi:id="_cWRmMMwqEeuHKMjAGEF6Vg" base_Property="_cWQYEMwqEeuHKMjAGEF6Vg" strategy="LAZY"/>
+  <Persistency:JoinColumns xmi:id="_cWRmMcwqEeuHKMjAGEF6Vg" base_Property="_cWQYEMwqEeuHKMjAGEF6Vg">
+    <columns xmi:id="_cXa1sswqEeuHKMjAGEF6Vg" label="id_sala" unique="true"/>
+  </Persistency:JoinColumns>
+  <Persistency:JPA1StyledElement xmi:id="_cWUpgMwqEeuHKMjAGEF6Vg" base_Element="_cWQYEMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cWYT4MwqEeuHKMjAGEF6Vg" base_Element="_cWWesMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_cWY68MwqEeuHKMjAGEF6Vg" base_Element="_cWWesMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cWY68cwqEeuHKMjAGEF6Vg" name="OneToMany">
+      <annotationParameters xmi:id="_cWY68swqEeuHKMjAGEF6Vg" name="cascade" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7MAMwqEeuHKMjAGEF6Vg" value="CascadeType.ALL"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cWY688wqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7MAcwqEeuHKMjAGEF6Vg" value="SesionConId.class"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cWY69MwqEeuHKMjAGEF6Vg" name="mappedBy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX7MAswqEeuHKMjAGEF6Vg" value="&quot;sala&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cWawIMwqEeuHKMjAGEF6Vg" base_Element="_cWaJEMwqEeuHKMjAGEF6Vg">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_cWclUMwqEeuHKMjAGEF6Vg" name="getReservas" method="_cXfHIMwqEeuHKMjAGEF6Vg">
+      <ownedParameter xmi:id="_cWclUcwqEeuHKMjAGEF6Vg" type="_cCRFEMwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cWclUswqEeuHKMjAGEF6Vg" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_cWdMYMwqEeuHKMjAGEF6Vg" base_Element="_cWaJEMwqEeuHKMjAGEF6Vg">
+    <annotations xmi:id="_cWdMYcwqEeuHKMjAGEF6Vg" name="OneToMany">
+      <annotationParameters xmi:id="_cWdMYswqEeuHKMjAGEF6Vg" name="cascade" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX8aJMwqEeuHKMjAGEF6Vg" value="CascadeType.ALL"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cWdzcMwqEeuHKMjAGEF6Vg" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX8aJcwqEeuHKMjAGEF6Vg" value="ReservaConId.class"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_cWdzccwqEeuHKMjAGEF6Vg" name="mappedBy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_cX9BMMwqEeuHKMjAGEF6Vg" value="&quot;sesion&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_cXXyYMwqEeuHKMjAGEF6Vg" name="getSesion" specification="_cWKRccwqEeuHKMjAGEF6Vg">
+    <ownedParameter xmi:id="_cXYZcMwqEeuHKMjAGEF6Vg" type="_cFpwQMwqEeuHKMjAGEF6Vg" direction="return"/>
+    <language>java</language>
+    <body>return super.getSesion();
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_cXfHIMwqEeuHKMjAGEF6Vg" name="getReservas" specification="_cWclUMwqEeuHKMjAGEF6Vg">
+    <ownedParameter xmi:id="_cXfHIcwqEeuHKMjAGEF6Vg" type="_cCRFEMwqEeuHKMjAGEF6Vg" isOrdered="true" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cXfHIswqEeuHKMjAGEF6Vg" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return reservas;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_cYTmgMwqEeuHKMjAGEF6Vg" base_Element="_cYHZQMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cYeloMwqEeuHKMjAGEF6Vg" base_Element="_cYTmgcwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cYqy4MwqEeuHKMjAGEF6Vg" base_Element="_cYelocwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cZX9gMwqEeuHKMjAGEF6Vg" base_Element="_cYqy4cwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cZtUsMwqEeuHKMjAGEF6Vg" base_Element="_cZYkkMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cZ3swMwqEeuHKMjAGEF6Vg" base_Element="_cZtUscwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_caA2sMwqEeuHKMjAGEF6Vg" base_Element="_cZ3swcwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_caKnsMwqEeuHKMjAGEF6Vg" base_Element="_caBdwMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_caq-AMwqEeuHKMjAGEF6Vg" base_Element="_caLOwMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_ca3yUMwqEeuHKMjAGEF6Vg" base_Element="_caq-AcwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cbI4EMwqEeuHKMjAGEF6Vg" base_Element="_ca4ZYMwqEeuHKMjAGEF6Vg"/>
+  <UMLLabProfile:Reference xmi:id="_cbbzAMwqEeuHKMjAGEF6Vg" base_Element="_cbI4EcwqEeuHKMjAGEF6Vg"/>
+</xmi:XMI>

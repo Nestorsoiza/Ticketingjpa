@@ -1,0 +1,14 @@
+es/mde/soiza/Ticketing/comun/Butaca.java
+ es.mde.soiza.Ticketing.comun.Butaca
+es/mde/soiza/Ticketing/comun/Sesion.java
+ es.mde.soiza.Ticketing.comun.Sesion
+es/mde/soiza/Ticketing/comun/Sala.java
+ es.mde.soiza.Ticketing.comun.Sala
+es/mde/soiza/Ticketing/TicketingApplication.java
+ es.mde.soiza.Ticketing.TicketingApplication
+es/mde/soiza/Ticketing/comun/Fila.java
+ es.mde.soiza.Ticketing.comun.Fila
+es/mde/soiza/Ticketing/comun/Reserva.java
+ es.mde.soiza.Ticketing.comun.Reserva
+es/mde/soiza/Ticketing/comun/ReservaImpl.java
+ es.mde.soiza.Ticketing.comun.ReservaImpl
